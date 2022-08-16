@@ -1,0 +1,33 @@
+{
+  "name": "mycity",
+  "version": "1.0.0",
+  "description": "Este repositório é uma pratica de Async functions, nele estou criando um jogo simples para treinar aquilo que aprendi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vai" : "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGL25/MyCity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DGL25/MyCity/issues"
+  },
+  "homepage": "https://github.com/DGL25/MyCity#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "corejs": "^1.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
