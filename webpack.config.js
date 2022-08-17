@@ -5,8 +5,9 @@ const PATH = {
 }
 
 module.exports = {
+    mode: 'development',
     entry : {
-        index: './src/js/main.js'
+        main: './src/js/main.js'
     },
 
     output: {
@@ -21,5 +22,13 @@ module.exports = {
                 use: ['babel-loader']
             }
         ]
+    },
+
+    devServer:{
+        static:{
+            directory: path.join(__dirname, 'dist'),
+        },
+        compress: true,
+        port:8080,
     }
 }
